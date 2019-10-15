@@ -1,0 +1,186 @@
+1,IC101P,Reverse Engineering,0-0-3-2,"SS, GSR,SCJ,AJP, SP, Swati"
+2,IC110,Engineering Mathematics,2.5-0.5-0-3,Qaiser
+3,IC140,Graphics for Design,2-0-3-4,"VSC Lab - RV,SSR, RG,HP, Parmod, SZ"
+4,IC152,Computing and Data Science,3-0-2-4,"TAG, AB, KS, sarita, Arti, Amit,MT"
+5,IC160,Electrical System Around Us,3-0-0-3,Ravinder Arora LC:BSR
+6,IC160P,Electrical System Around Us Lab,0-0-3-2,"SKS, TJ, Amit, MD"
+7,HS106,English I,3-0-0-3,Neha
+8,IC121,Mechanics of Particles and Waves,2.5-0.5-0-3,PP
+9,IC136,Understanding Biotechnology and Its Applications,3-0-0-3,AJ
+10,IC136,Applied Chemistry for Engineers,3-0-0-3,PFS
+11,IC130,Chemistry Practicum,0-0-3-2,JKR
+12,IC130P,Data Science III,2-0-2-3,"Dileep, AKS,VD, MT, RP"
+13,IC 272,Mechanics of Rigid Bodies,1.5-1.5-0-3,RK
+14,IC 240,Materials Science for Engineers,3-0-0-3,SSR
+15,IC241,Signals and Systems,3-0-0-3,Sharma
+16,IC260,Data Structure and Algorithms,3-0-2-4,AN
+17,CS202,Applied Database Practicum,0-0-3-2,VD
+18,CS207,Mathematical Foundations of Computer Science,3-1-0-4,Samar
+19,CS208,German II,3-0-0-3,GS
+20,HS352,Computer Organization,3-0-0-3,Srinivas
+21,CS201,Computer Organization Laboratory,0-0-2-1,Srinivas
+22,CS201P,Introduction to Communicating Distributed Processes,3-0-2-4,SK
+23,CS310,Large Applications Practicum,0-0-3-2,"BDC, PR"
+24,CS308,Basics of Data Science,1-0-3-3,"Rik, TAG"
+25,CS502P,Network Theory,3-0-0-3,NST
+26,EE203,Digital Systems Design,3-0-0-3,Rahul
+27,EE210,Digital Systems Design Practicum,0-0-2-1,Rahul
+28,EE210P,Device Electronics for Integrated Circuits,3-0-0-3,Ankush
+29,EE311,Microelectronics Circuits Design Practicum,0-0-3-2,KG
+30,EE312P,Digital Signal Processing,3-1-0-4,RMR
+31,EE305,Operator Theory,3-1-0-2,
+32,MA612,CMOS analog IC design,3-0-2-4,HS
+33,EE512,Robust Control Systems,3-0-0-3,TJ
+34,EE514,Nano-electronics and nano-microfabrication,3-0-0-3,SB
+35,EE615,Nano-manufacturing,3-0-0-3,JKR
+36,ME509,Biomedical Systems,2.5-0.5-2-4,SRC
+37,EE516,Radiating Systems,3-1-0-4,GSR
+38,EE 621,Formal Languages and Automata Theory,3-0-0-3,Astrid
+39,CS304,Pattern Recognition,3-1-0-4,AB
+40,CS669,Probability and Random Processes,4-0-0-4,ST
+41,EE 5XX,Matrix Theory,3-0-0-3,sharma
+42,EE522,Digital MOS LSI Circuits,3-0-0-3,rahul
+43,EE524,Linear Dynamical Systems,3-0-0-3,Amit
+44,EE509,CMOS Digital IC design practicum,0-0-3-2,"rahul, GSR"
+45,EE519P,Microelectronics devices and modeling,3-0-0-3,SS
+46,EE520,Major Technical Project,3-0-0-3,
+47,DP401P,Formal Concept Analysis: Theory and Practice,3-0-0-3,SK
+48,CS544,Special Topics in Compiler Design,3-0-0-3,Manas
+49,CS 593,Map Reduce and Big Data,3-0-0-3,Arti
+50,CS561,Verification of Reactive Systems,3-0-0-3,Astrid
+51,CS523,Programming Practicum,1-0-3-3,RP
+52,CS 571,Digital Image Processing,3-0-2-4,AKS
+53,EE608,Advanced Communication Theory,3-0-0-3,Adarsh
+54,EE503,Switched Mode Power Conversion,2.5-0.5-0-3,RO
+55,EE504,Fundamentals of Electric Drives,3-0-0-3,HM
+56,EE508,Practicum on Electrical Drives,0-0-3-2,HM
+57,EE508P,Special Electrical Machines,3-0-0-3,BSR
+58,EE513,Analysis and Design of Power Electronic Converters,3-0-0-3,NRT
+59,EE527,Practicum on Analysis and Design of Power Electronic Converters,0-0-3-2,NRT
+60,EE527P,Modeling and Analysis of Electrical Machines,3-0-0-3,BSR
+61,EE 528,Microwave Integrated Circuits,3-0-0-3,GSR
+62,EE622,Post Graduate Project-I,8,NRT
+63,EE 625P,Post Graduate Project-I,0-0-20-10,samar
+64,EE 626P,Machine Drawing,1-0-4-3,Talha
+65,ME205,Surveying: Traditional and Digital,2-0-2-3,DPS
+66,CE201,Hydraulics Engineering,3-0-0-3,RV 
+67,CE251,Industrial/Research Internship,0-0-2-1,RS
+68,CE587P,Mechanics of Solids,2.5-0.5-0-3,RG
+69,ME206,Heat Transfer,2.5-0.5-0-3,GB
+70,ME303,Manufacturing Engineering,3-0-0-3,SZ
+71,ME308,Design Lab I,0-0-2-1,Talha
+72,ME311P,Strength of Materials and Structures,3-0-2-4,sandip
+73,CE301,Water Resources Engineering,3-0-0-3,DS
+74,CE303,Hydraulics Engineering Laboratory,0-0-2-1,DS
+75,CE304P,Environment and Earth Science Lab,0-0-2-1,AJP
+76,CE305P,Design of Reinforced Concrete Structures,2-1-0-3,Sandip
+77,CE351,Transportation Engineering,3-0-0-3,VUK
+78,CE352,Civil Engineering Drawing,0-0-2-1,"Subhamoy, VUK"
+79,CE353P,Building and Pavement Materials Laboratory,0-0-21,RS
+80,CE354P,Design of Steel Structures,2-1-0-3,RS
+81,CE401,Geotechnical Engineering II,3-0-2-4,Mousumi/MG
+82,CE402,Design of Machine Elements,3-1-0-4,HP
+83,ME305,Thermo-fluid Laboratory,0-0-3-2,Pradeep
+84,ME310P,Management of Manufacturing and Logistics Systems,3-0-0-3,swati
+85,ME351,Photogeology and Photogrammetry,2-0-2-3,DPS
+86,CE508,Slope stability and Retaining structures,2-1-0-3,Mousumi
+87,CE504,Modelling and Simulation in Water Resources Engineering,2-0-2-3,TBD
+88,CE510,Structural Dynamics with Application to Earthquake Engineering,3-0-0-3,Subhamoy
+89,CE511,Advanced Design of Structures,3-0-0-3,KS
+90,CE555,Structural Engineering Laboratory,0-0-4-2,Sandip
+91,CE556P,Post Graduate Project-I,0-0-24-12,Sandip
+92,CE688P,Numerical Methods for Engineering Computation,3-0-0-3,AG
+93,ME504,Solid Mechanics in Structural Engineering,3-0-0-3,MG
+94,CE557,Remote Sensing,2-0-2-3,DPS
+95,CE501,Advanced Finite Element Methods,3-0-0-3,"SCJ, RK"
+96,ME601,Mechanical Vibration,3-0-0-3,Amit
+97,ME602,Advanced Fluid Mechanics,3-0-0-3,PAK
+98,ME603,Advanced Thermodynamics,3-1-0-4,PAK
+99,ME610,Introduction to Turbulence and its Modelling,3-0-0-3,Pradeep
+100,ME625,Mechanics for Energy Systems,3-0-0-3,RS
+101,ME632,Design of Energy Systems,3-0-0-3,Parmod
+102,ME633,Energy Sources and Power Plants,3-0-0-3,Atul
+103,EN501,Emerging Energy Sources,3-0-0-3,Powar
+104,EN502,Energy Storage Technologies,3-0-0-3,Rik
+105,EN503,Energy: Environment Policy and Law,3-0-0-3,SDG.VR
+106,EN504,Energy Systems Laboratory,0-0-4-2,"Rik, VB, Atul, Powar"
+107,EN505P,Research Practicum,0-0-6-3,JKR
+108,DP 500P,Creep-Fatigue Interaction,3-0-0-3,VB
+109,EN613,Industrial Training,1-0-0-1,RG/JKR
+110,DP 512P,Post Graduate Project-I,14,JKR/RG
+111,DP 513P,Basic Communication Skills,3-0-0-3,GS
+112,HS105,Principles of Economics,3-0-0-3,"SDG, VR"
+113,HS202,Financial Accounting,3-0-0-3,Puran
+114,HS205,Introduction to Psychology,3-0-0-3,"PB, LC:VD"
+115,HS252,Popular Culture in Modern India : A Historical Perspective,3-0-0-3,Devika
+116,HS263,Science Writing,3-0-0-3,Aruna
+117,HS358,Introduction to World History,3-0-0-3,RD
+118,HS391,Consumer Behavior,3-0-0-3,SD 
+119,HS 461,Mathematical Physics,4-0-0-4,samar
+120,PH511,Classical Mechanics,4-0-0-4,SP
+121,PH512,Quantum Mechanics,3-0-0-3,SKP
+122,PH513,Electronics,3-0-0-3,BR
+123,PH514,Physics Laboratory,0-0-5-3,PK
+124,PH515P,Research Project I,0-0-4-2,Ajay
+125,PH516,Research Project II,0-0-8-4,Ajay
+126,PH517,Post Graduate Project-I,0-0-6-3,PK
+127,PH518P,Experimental Research Techniques,0-0-7-4,CSY
+128,PH611P,Advanced Condensed Matter Physics,3-0-0-3,CSY
+129,PH603,Introduction to Molecular Simulation,4-0-0-4,PJ
+130,PH701,Magnestism and Magnetic Materials,3-0-0-3,KM
+131,PH508,Special Topics in Quantum Mechanics,3-0-0-3,HV
+132,PH613,Seminar and Report,0-0-4-2,PK
+133,PH614,Mesoscopic Physics and Quantum Transport,3-0-0-3,ajay
+134,PH601,Real Analysis,3-1-0-4,SA
+135,MA511,Linear Algebra,3-1-0-4,MM
+136,MA512,Ordinary Differential Equation,3-1-0-4,NK
+137,MA513,Computer Programming,3-0-0-3,Sarita
+138,MA514,Computer Programming Lab,0-0-3-2,R Ray/Sarita
+139,MA514P,Applied Mathematical Programming,3-1-0-4,MT
+140,MA515,Post Graduate Project-I,0-0-20-10,NK (Coordinator)
+141,MA581,Numerics of Partial Differential Equations,3-0-0-3,R Ray
+142,MA609,Introduction to Banach Algebra,3-0-1-4,KH
+143,MA6XX,Advanced Cell Biology,3-0-0-3,PM
+144,BY510,Cell Physiology in health and disease,3-0-0-3,AP
+145,BY511,Quantitative and computational Biology,3-0-0-3,TPS
+146,BY512,Cellular Bioprocess Technology,3-0-0-3,SKM
+147,BY513,Cell Biology and Physiology,0-0-2-1,AP/PM
+148,BY520P,Computational Biology and Cellular Bioprocess Technology Lab,0-0-2-1,TPS/SKM
+149,BY521P,Seminar,0-0-2-1,BioX faculties (RG will coordinate)
+150,BY 525,Post Graduate Project-I,0-0-32-16,BioX and other faculties (PM/SKM will coordinate)
+151,BY 598,Organic Reaction and Mechanism,4-0-0-4,SG
+152,CY501,Chemistry of Transition Elements,4-0-0-4,VKN
+153,CY506,Advanced Quantum Chemistry,3-0-0-3,CKN
+154,CY512,Chemical Thermodynamics & Electrochemistry,3-0-0-3,AH
+155,CY514,Mathematics for Chemists,3-0-0-3,AC
+156,CY521,Design Practicum - 1,0-0-4-2,AH
+157,DP5101P,Inorganic Chemistry Lab,0-0-8-4,PCP
+158,CY506P,Physical Chemistry Laboratory,0-0-8-4,VKN
+159,CY511P,Computational Chemistry,3-0-0-3,AC
+160,CY522,Organometallic Chemistry,2-0-0-2,PCP
+161,CY508,Basic Mechanical and Electrical Workshop,0-0-4-2,PFS
+162,DP503P,Mini Project,0-0-8-4,SG
+163,DP504P,Technical Communication,1-0-0-1,Suman S
+164,HS541,Research Methodology to Social Science,3-0-0-3,"surya,SDG"
+165,HS522,History of Development Thoughts,3-0-0-3,"SDG,RD"
+166,HS525,Human Geography: A Western Himalayan Perspective,3-0-0-3,Devika/Ramna
+167,HS526,Indian Social Structure and Development,3-0-0-3,NC
+168,HS527,Information Technology and Development,3-0-0-3,VD/SRC
+169,HS528,Natural Resource and Development,3-0-0-3,Powar/Atul/SKM
+170,HS529,Development Studies Practicum 2,0-0-8-4,Suman S
+171,HS 552P,Financial Inclusion in India,3-0-0-3,Puran
+172,HS 535,Field Study,0-0-8-4,SDG
+173,HS553P,Development Economics,3-0-0-3,Ramna
+174,HS 538,Post-Reform India,3-0-0-3,surya
+175,HS 537,Popular Narratives,3-0-0-3,Suman S
+176,HS620,Advance Qualitative Research Methods,4-0-0-4,MVD 
+177,HS621,Historical Theory and Methodology,3-0-0-3,MVD 
+178,HS631,Energy:Environment Policy and Law,3-0-0-3,"SDG, VR"
+179,EN504,Special Topics in Personal Finance and Wealth Management,1-0-0-1,Mr. Raja Sekharan LC: Puran
+180,HS591,Special Topics in Higher Education and Development ,1-0-0-1,LC: Ramna
+181,HS591,Selected Topics in Electric Machine Design,1-0-0-1,Er. Sabyasachi Roy LC:BSR
+182,EE591,Probability and Random Processes,3-0-0-3,
+183,EE534,German III,3-0-0-3,GS
+184,HS362,M.Tech dissertation Part I,0-0-34-17,
+185,CS520P,Special topics in structural Engg.,1-0-0-1,Sandip Saha
+186,PH591,Selected Topics on Correlated Electron Systems,1-0-0-1,Arghya Tarafdar/Ajay Soni
