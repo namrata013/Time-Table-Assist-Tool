@@ -1,2 +1,7 @@
 # Time-Table-Assist-Tool
-python, SQLite, Django based assist tool
+Python, SQLite, Django based assist tool.
+
+## Pre-Requisites
+* SQLite
+* Python3
+
