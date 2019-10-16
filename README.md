@@ -59,5 +59,3 @@ copy the output that thsi command prints. Say, it is "/usr/bin/python3" (as in m
 
 There are 2 releases. The current Version-1.0 is able to notify of the errors and display the updated tables on run time. Version-2 is is targetted to come equipped with better GUI and better management and inclusion of more database based constraints.
 
-
-
