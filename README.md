@@ -2,7 +2,7 @@
 ## Team No - 9
 #### Team Members are : 
 
-###### Akhil Rajput : B17036
+###### Akhil Rajput : B17033
 ###### Suraj Kumar : B17064
 ###### Aashima : B17031
 ###### Namrata Malkani : B17096
