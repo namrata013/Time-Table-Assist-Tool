@@ -11,6 +11,8 @@ def add_into_slot_database(entries):
     course = str(entries['Course'].get())
     slot = str(entries['Slot'].get())
     classroom = str(entries['Classroom'].get())
+
+    # Check For Slot A
     if slot=="A":
         cur = con.cursor()
         errorBit = 0
@@ -23,7 +25,7 @@ def add_into_slot_database(entries):
         if errorBit==1:
             label = Label(root, text="Two Courses in a slot cannot have same Classroom")
             label.pack()
-            label.after(1500, label.destroy)
+            label.after(2000, label.destroy)
         else:
             per = con2.cursor()
             per.execute("SELECT * FROM clgdata")
@@ -34,6 +36,7 @@ def add_into_slot_database(entries):
                     instructors = str(row[4])
                     instructors = instructors.split(',')
             for i in instructors:
+                cur = con.cursor()
                 cur.execute("SELECT * FROM facultySlots")
                 data3 = cur.fetchall()
                 for d3 in data3:
@@ -50,14 +53,16 @@ def add_into_slot_database(entries):
                 for i in instructors:
                     cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
                 con.commit()
-
             else:
                 label = Label(root, text="A faculty cannot take two classes in same slot")
                 label.pack()
-                label.after(1500, label.destroy)
-    if slot=="B":
+                label.after(2000, label.destroy)
+
+    # Check for B
+    elif slot=="B":
         cur = con.cursor()
         errorBit = 0
+        errorBit2 = 0
         cur.execute("SELECT * FROM slotB")
         data = cur.fetchall()
         for row in data:
@@ -66,16 +71,44 @@ def add_into_slot_database(entries):
         if errorBit==1:
             label = Label(root, text="Two Courses in a slot cannot have same Classroom")
             label.pack()
-            label.after(1500, label.destroy)
+            label.after(2000, label.destroy)
         else:
-            cur.execute("INSERT INTO slotB Values (?,?)", (course,classroom))
-            con.commit()
-            cur = con.cursor()
-            cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
-            con.commit()
-    if slot=="C":
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotB Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    #  Check for Slot C
+    elif slot=="C":
         cur = con.cursor()
         errorBit = 0
+        errorBit2 = 0
         cur.execute("SELECT * FROM slotC")
         data = cur.fetchall()
         for row in data:
@@ -84,13 +117,273 @@ def add_into_slot_database(entries):
         if errorBit==1:
             label = Label(root, text="Two Courses in a slot cannot have same Classroom")
             label.pack()
-            label.after(1500, label.destroy)
+            label.after(2000, label.destroy)
         else:
-            cur.execute("INSERT INTO slotC Values (?,?)", (course,classroom))
-            con.commit()
-            cur = con.cursor()
-            cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
-            con.commit()
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotC Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    # Check for Slot D
+    elif slot=="D":
+        cur = con.cursor()
+        errorBit = 0
+        errorBit2 = 0
+        cur.execute("SELECT * FROM slotD")
+        data = cur.fetchall()
+        for row in data:
+            if row[1]==classroom:
+                errorBit = 1
+        if errorBit==1:
+            label = Label(root, text="Two Courses in a slot cannot have same Classroom")
+            label.pack()
+            label.after(2000, label.destroy)
+        else:
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotD Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    # Check for Slot E
+    elif slot=="E":
+        cur = con.cursor()
+        errorBit = 0
+        errorBit2 = 0
+        cur.execute("SELECT * FROM slotE")
+        data = cur.fetchall()
+        for row in data:
+            if row[1]==classroom:
+                errorBit = 1
+        if errorBit==1:
+            label = Label(root, text="Two Courses in a slot cannot have same Classroom")
+            label.pack()
+            label.after(2000, label.destroy)
+        else:
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotE Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    # Check for Slot F
+    elif slot=="F":
+        cur = con.cursor()
+        errorBit = 0
+        errorBit2 = 0
+        cur.execute("SELECT * FROM slotF")
+        data = cur.fetchall()
+        for row in data:
+            if row[1]==classroom:
+                errorBit = 1
+        if errorBit==1:
+            label = Label(root, text="Two Courses in a slot cannot have same Classroom")
+            label.pack()
+            label.after(2000, label.destroy)
+        else:
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotF Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    # Check for Slot G
+    elif slot=="G":
+        cur = con.cursor()
+        errorBit = 0
+        errorBit2 = 0
+        cur.execute("SELECT * FROM slotG")
+        data = cur.fetchall()
+        for row in data:
+            if row[1]==classroom:
+                errorBit = 1
+        if errorBit==1:
+            label = Label(root, text="Two Courses in a slot cannot have same Classroom")
+            label.pack()
+            label.after(2000, label.destroy)
+        else:
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotG Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    # Check for Slot H
+    elif slot=="H":
+        cur = con.cursor()
+        errorBit = 0
+        errorBit2 = 0
+        cur.execute("SELECT * FROM slotH")
+        data = cur.fetchall()
+        for row in data:
+            if row[1]==classroom:
+                errorBit = 1
+        if errorBit==1:
+            label = Label(root, text="Two Courses in a slot cannot have same Classroom")
+            label.pack()
+            label.after(2000, label.destroy)
+        else:
+            per = con2.cursor()
+            per.execute("SELECT * FROM clgdata")
+            data2 = per.fetchall()
+            instructors = ""
+            for row in data2:
+                if row[1]==course:
+                    instructors = str(row[4])
+                    instructors = instructors.split(',')
+            for i in instructors:
+                cur = con.cursor()
+                cur.execute("SELECT * FROM facultySlots")
+                data3 = cur.fetchall()
+                for d3 in data3:
+                    if d3[0]==i and d3[1]==slot:
+                        errorBit2 = 1
+            if errorBit2==0:
+                cur = con.cursor()
+                cur.execute("INSERT INTO slotH Values (?,?)", (course,classroom))
+                con.commit()
+                cur = con.cursor()
+                cur.execute("INSERT INTO allCoursesAdded Values (?)", (course,))
+                con.commit()
+                cur = con.cursor()
+                for i in instructors:
+                    cur.execute("INSERT INTO facultySlots Values (?,?)", (i,slot))
+                con.commit()
+            else:
+                label = Label(root, text="A faculty cannot take two classes in same slot")
+                label.pack()
+                label.after(2000, label.destroy)
+
+    else:
+        label = Label(root, text="Slot does not Exist")
+        label.pack()
+        label.after(2000, label.destroy)
     con.commit()
 
 def show_all_databases():
@@ -119,6 +412,36 @@ def show_all_databases():
     data = cur.fetchall()
     for row in data:
         print(row)
+    print("slotD")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM slotD")
+    data = cur.fetchall()
+    for row in data:
+        print(row)
+    print("slotE")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM slotE")
+    data = cur.fetchall()
+    for row in data:
+        print(row)
+    print("slotF")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM slotF")
+    data = cur.fetchall()
+    for row in data:
+        print(row)
+    print("slotG")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM slotG")
+    data = cur.fetchall()
+    for row in data:
+        print(row)
+    print("slotH")
+    cur = con.cursor()
+    cur.execute("SELECT * FROM slotH")
+    data = cur.fetchall()
+    for row in data:
+        print(row)
 
 def check_constraints(root, entries):
    course = str(entries['Course'].get())
@@ -137,12 +460,14 @@ def check_constraints(root, entries):
    else:
        label = Label(root, text="Course Already Added")
        label.pack()
-       label.after(1500, label.destroy)
+       label.after(2000, label.destroy)
    con.commit()
    show_all_databases()
 
 def save_database(entries):
-    print("Feature Under Progress")
+    label = Label(root, text="Feauture Under Progress")
+    label.pack()
+    label.after(2000, label.destroy)
 
 def makeform(root, fields):
    entries = {}
@@ -158,6 +483,7 @@ def makeform(root, fields):
    return entries
 
 def set_runtime_database():
+
    cur = con.cursor()
    cur.execute("DROP TABLE IF EXISTS slotA")
    cur.execute("CREATE TABLE slotA ('Course No.' TEXT PRIMARY KEY, 'Class' TEXT UNIQUE);")
@@ -169,6 +495,21 @@ def set_runtime_database():
    cur = con.cursor()
    cur.execute("DROP TABLE IF EXISTS slotC")
    cur.execute("CREATE TABLE slotC ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
+   cur = con.cursor()
+   cur.execute("DROP TABLE IF EXISTS slotD")
+   cur.execute("CREATE TABLE slotD ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
+   cur = con.cursor()
+   cur.execute("DROP TABLE IF EXISTS slotE")
+   cur.execute("CREATE TABLE slotE ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
+   cur = con.cursor()
+   cur.execute("DROP TABLE IF EXISTS slotF")
+   cur.execute("CREATE TABLE slotF ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
+   cur = con.cursor()
+   cur.execute("DROP TABLE IF EXISTS slotG")
+   cur.execute("CREATE TABLE slotG ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
+   cur = con.cursor()
+   cur.execute("DROP TABLE IF EXISTS slotH")
+   cur.execute("CREATE TABLE slotH ('Course No.' TEXT PRIMARY KEY,'Class' TEXT UNIQUE);")
    cur = con.cursor()
    cur.execute("DROP TABLE IF EXISTS allCoursesAdded")
    cur.execute("CREATE TABLE allCoursesAdded ('Course No.' TEXT PRIMARY KEY);")
