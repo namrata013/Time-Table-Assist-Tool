@@ -9,7 +9,7 @@ try:
 
     cur = con.cursor()  
     cur.execute("DROP TABLE IF EXISTS profdata")
-    cur.execute("CREATE TABLE profdata ('Sr. No.' TEXT, 'ShortName' TEXT, 'FullName' TEXT);")
+    cur.execute("CREATE TABLE profdata ('SrNo' TEXT, 'ShortName' TEXT, 'FullName' TEXT);")
     file= open('teachers.csv', 'r')
     dr = csv.reader(file, delimiter= ',',)
     for t in dr:
@@ -19,7 +19,7 @@ try:
 
     cur = con.cursor()  
     cur.execute("DROP TABLE IF EXISTS classdata")
-    cur.execute("CREATE TABLE classdata ('Sr. No.' TEXT, 'Class' TEXT, 'Strength' TEXT);")    
+    cur.execute("CREATE TABLE classdata ('SrNo' TEXT, 'Class' TEXT, 'Strength' TEXT);")    
     file= open('class.csv', 'r')
     dr = csv.reader(file, delimiter= ',',)
     for t in dr:
@@ -29,7 +29,7 @@ try:
 
     cur = con.cursor()  
     cur.execute("DROP TABLE IF EXISTS clgdata")
-    cur.execute("CREATE TABLE clgdata ('Sr. No.' TEXT, 'Course No.' TEXT, 'Course Title' TEXT, 'Credits L-T-P-C' TEXT, 'Instructor' TEXT);")    
+    cur.execute("CREATE TABLE clgdata ('SrNo' TEXT, 'CourseNo' TEXT, 'CourseTitle' TEXT, 'Credits_L-T-P-C' TEXT, 'Instructor' TEXT);")    
     file= open('data.csv', 'r')
     dr = csv.reader(file, delimiter= ',',)
     for t in dr:
