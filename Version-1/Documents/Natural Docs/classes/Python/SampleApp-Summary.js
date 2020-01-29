@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("PythonClass:SampleApp","SampleApp");NDSummary.OnSummaryLoaded("PythonClass:SampleApp",[["Python","Python"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3,0,0,"SampleApp"],[15,0,2,"Functions","Functions"],[30,0,1,"__init__","__init__"],[31,0,1,"show_frame","show_frame"]]);

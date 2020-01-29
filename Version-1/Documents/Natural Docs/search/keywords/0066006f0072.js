@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("for",["Function"],[["force_add",,[[,,,,0,"File:gui.py:force_add"]]]]);

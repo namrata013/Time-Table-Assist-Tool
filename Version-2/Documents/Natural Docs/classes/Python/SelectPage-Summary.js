@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("PythonClass:SelectPage","SelectPage");NDSummary.OnSummaryLoaded("PythonClass:SelectPage",[["Python","Python"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[17,0,0,"SelectPage"],[19,0,2,"Functions","Functions"],[33,0,1,"__init__","__init__"]]);

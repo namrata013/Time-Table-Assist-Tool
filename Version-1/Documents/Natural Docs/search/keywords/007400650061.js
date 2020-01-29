@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("tea",["Class"],[["Teacher",,[[,,,,0,"File:db_modify.py:Teacher","PythonClass:Teacher"]]]]);

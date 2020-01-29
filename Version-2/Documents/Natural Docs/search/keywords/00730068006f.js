@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("sho",["Function"],[["show_frame",,[["SampleApp",,,,0,"File:db_modify.py:SampleApp.show_frame","PythonClass:SampleApp:show_frame"]]]]);

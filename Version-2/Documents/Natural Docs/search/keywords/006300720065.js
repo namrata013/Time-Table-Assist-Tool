@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("cre",["Function"],[["create_connection",,[[,,,,0,"File:allocate.py:create_connection"]]],["create_table",,[[,,,,0,"File:allocate.py:create_table"]]]]);

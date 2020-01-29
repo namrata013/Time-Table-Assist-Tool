@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("PythonClass:Courses","Courses");NDSummary.OnSummaryLoaded("PythonClass:Courses",[["Python","Python"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[14,0,0,"Courses"],[28,0,2,"Functions","Functions"],[39,0,1,"__init__","__init__"]]);

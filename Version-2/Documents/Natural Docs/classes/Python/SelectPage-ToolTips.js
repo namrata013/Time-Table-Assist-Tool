@@ -1,0 +1,1 @@
+NDContentPage.OnToolTipsLoaded({12:"<div class=\"NDToolTip TClass LPython\"><div class=\"NDClassPrototype\" id=\"NDClassPrototype12\"><div class=\"CPEntry TClass Current\"><div class=\"CPName\">Class</div></div></div><div class=\"TTSummary\">The frame for modifying the &quot;Classroom_Data&quot; table in the database</div></div>"});

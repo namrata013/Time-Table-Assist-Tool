@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("sam",["Class"],[["SampleApp",,[[,,,,0,"File:db_modify.py:SampleApp","PythonClass:SampleApp"]]]]);

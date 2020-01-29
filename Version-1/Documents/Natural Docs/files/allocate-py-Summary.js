@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("File:allocate.py","allocate.py");NDSummary.OnSummaryLoaded("File:allocate.py",[["Python","Python"]],[["Functions","Function"],["Groups","Group"]],[[29,0,1,"Functions","Functions"],[32,0,0,"create_connection","create_connection"],[34,0,0,"create_table","create_table"]]);

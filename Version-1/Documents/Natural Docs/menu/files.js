@@ -1,0 +1,1 @@
+NDMenu.OnSectionLoaded("files.js",[[1,"allocate.py"],[1,"db_modify.py"],[1,"gui.py"],[1,"test.py"]]);

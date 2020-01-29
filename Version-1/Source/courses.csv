@@ -1,0 +1,174 @@
+﻿Sr. No.,Course  No.,Course Title,"Credits
+L-T-P-C",Instructor,2nd Sem,4th Sem CE,4th Sem CS,4th  Sem EE,4th Sem ME,6th Sem CE,6th Sem CS,6th Sem EE,6th Sem ME,8th Sem CE,8th Sem CS,8th Sem EE,8th  Sem ME,MV 2nd  sem,MV 4th  sem,MS 2nd sem,MS 4th sem,MP 2nd sem,MP 4th sem,Mtech (ME) 2nd sem,Mtech (ME) 4th  sem,Mtech (EE) 2nd sem,Mtech (EE) 4th  sem,Mtech (SE) 2nd sem,Mtech (SE) 4th sem,MT(Bio)2nd,MT(Bio) 4th,MA (2nd Sem),MA (4th Sem),M.Sc (Chem) 2nd sem,M.Sc (Chem) 4th sem,M.Sc (Maths) 2nd sem,M.Sc (Maths) 4th sem,M.Sc (Physics) 2nd sem,M.Sc (Physics) 4th sem,I-Ph.D. 2nd sem,I-Ph.D. 4th sem,I-Ph.D. 6th  sem,MS/PhD,Competence,PG Basket,Approval
+1,IC 111,Linear Algebra,2.5-0.5-0-3,NK,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+2,IC 141,Product Realization Technology,2-0-0-2,SZ,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+3,IC 141P,Product Realization Technology lab,0-0-3-2,"Powar, SZ, Talha, Atul, SP,VB,SSR,RV, Swati, BSR",C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+4,IC 142,Engineering Thermodynamics,3-0-0-3,Parmod,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 22nd senate
+5,IC 161,Applied Electronics,3-0-0-3,SS,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+6,IC 161P,Applied Electronics Lab,0-0-3-2,"Ankush, SS, SB, KG,Srinivasu, SRC",C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+7,IC 136,Understanding Biotechnology and its Applications,3-0-0-3,PM,,C,C,C,C,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+8,IC 1XX,Environmental Sciences,3-0-0-3,Ajit,,C,C,C,C,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,New course
+9,IC 130,Applied Chemistry for Engineers,2-0-2-3,PFS,,C,C,C,C,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+10,IC 201P,Design Practicum,0-0-6-4,"Subhamoy, AB, RS, SCJ,Parmod",,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+11,IC 252,Data Science II,3-0-2-4,"                         Lectures: ST                  Lab: ST, Dileep, PR, Arti, VD, VJ, Sarita, GB",C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 20th senate
+12,IC 221,Foundations of Electrodynamics,3-0-0-3,GSR,,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+13,IC 222P,Physics Practicum,0-0-3-2,Ajay,,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+14,IC 241,Material Science for Engineers,3-0-0-3,VB,,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+15,IC 242,Continuum Mechanics,2.5-0.5-0-3,GB,,C,C,C,C,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+16,IC 260,Signals and Systems,3-0-0-3,PR,,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 2nd adhoc meeting
+17,CS 201,Computer organization,3-0-0-3,AKS,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+18,CS 201P,Computer organization Laboratory,0-0-2-1,AKS,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+19,CS 302,Paradigms of Programming,3-0-2-4,Manas,,,,,,,C,E,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+20,CS 304,Formal Language and Automata Theory,3-0-0-3,Astrid,,,C,,,,E,,,,E,,,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+21,CS 307,Systems Practicum,0-0-3-2,Arti,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+22,CS 309,Information and Database Systems,3-0-2-4,SK,,,C,E,,,,E,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+23,EE 201,Electromechanics,2.5-0.5-0-3,NRT,,,,C,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 6th senate
+24,EE 201P,Electromechanics Lab,0-0-2-1,NRT,,,,C,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 6th senate
+25,EE 2XX,Analog Circuit Design,2-0-2-3,HS,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Not Approved
+26,EE 301,Control Systems,2.5-0.5-0-3,TJ,,,,,,E,E,C,E,E,C,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 12th senate
+27,EE 301P,Control Systems Laboratory,0-0-2-1,TJ,,,,,,E,E,C,E,E,C,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 12th senate
+28,EE 303,Power Systems,3-1-0-4,Pratim,,,,,,,,C,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 6th senate
+29,EE 304,Communication Theory,3-0-0-3,Adarsh,,,E,C,,,E,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 4th senate with 3 credits
+30,EE 304P,Communication Theory Lab,0-0-2-1,Adarsh,,,E,C,,,E,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,ME 210,Fluid Mechanics,3-0-0-3,Pradeep,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 3rd senate
+32,HS 208,English II,3-0-0-3,suman,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Language Comp.,,Approved in 9th senate
+33,HS 342_1,German I,3-0-0-3,neha,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Language Comp.,,Approved in 2nd adhoc meeting
+34,HS 342_2,German I,3-0-0-3,GS,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Language Comp.,,Approved in 2nd adhoc meeting
+35,CE 252,Geology and Geomorphology,2-0-2-3,DPS,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 16th senate
+36,CE 301,Strength of Materials and Structures,3-0-2-4,"Sandip Saha, KS",,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+37,CE 302,Geotechnical Engineering,3-0-2-4,Mousumi,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+38,CE 401,Design of Steel Structures,2-1-0-3,Sandip Saha,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+39,CE 502,Groundwater Flow and Contaminant Transport,3-0-0-3,DS,,,,,,E,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 9th senate
+40,CE 505,Engineering of Ground Modification,3-0-0-3,VUK,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+41,CE 506,Analysis of Indeterminate Structures,3-0-0-3,MG,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+42,CE 552,Concrete Technology,3-0-0-3,KS,,,,,,E,,,,E,,,E,,,,,,,E,E,,,E,,,,,,,,,,,,,,,E,,,Approved in 9th senate
+43,CE 586P,Mini Project,0-0-6-3,mousumi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 19th senate
+44,CE 601,Geo-Informatics,2-0-1-3,DPS,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 9th senate
+45,CE 689P,Post Graduate Project – II  ,0-0-34-17,Sandip Saha,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,,Approved in 19th senate
+46,CE 610,Analysis and Design for Earthquake Resistant Strucutres,3-0-0-3,Sandip Saha,,,,,,,,,,E,,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,Approved in 19th senate
+47,CE 611,Structural Health Monitoring,3-0-0-3,Subhamoy,,,,,,E,,,,E,,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,Approved in 19th senate
+48,DP 301P,Interactive Socio-Technical Practicum,0-0-8-4,"DPS, SCJ",,,,,,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 13th senate
+49,ME 307,Energy Conversion Devices,3-0-0-3,Atul,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 3rd senate
+50,ME 309,Theory of Machines,3-1-0-4,VSC,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 3rd senate
+51,ME 312P,Design Lab. II,0-0-2-1,"HP,AG",,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+52,ME 506,Fundamentals of Fracture Mechanics,3-0-0-3,RG,,,,,,E,,,E,E,,,E,,,,,,,E,E,,,E,,,,,,,,,,,,,,,E,,,Approved in 8th senate
+53,ME 513,FEM in Engineering (with BoA after CIG approval),3-0-2-4,RG,,,,,,E,,,E,E,,,,,,,,,,E,E,,,C,,,,,,,,,,,,,,,E,,,Not Approved
+54,ME 620,Modelling and Simulations,2-0-2-3,"Amit, Talha",,,,,,E,E,E,E,,E,E,E,,,,,,,C,,C,,E,,,,,,,,,,,,,,,,,,Approved in 6th senate
+55,EM 651,Photovoltic Materials and Fabrication,3-0-0-3,KG,,,,,,,,E,E,,,E,E,E,,,,E,E,E,,E,,,,,,,,,,,,,,,,,E,,,Approved in 11th senate
+56,DP 514P,Post Graduate Project-II,0-0-36-18,"JKR, RG",,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,,,,,,,,,,,,,,
+57,ME 615,Applied Computational Fluid Dynamics,2.5-0.5-0-3,PAK,,,,,,,,,,,,,E,,,,,,,E,,,,,,,,,,,,,,,,,,,E,,,Approved in 2nd adhoc meeting
+58,ME 617,Mechanics of Composite Materials,3-0-0-3,RS,,,,,,E,,,E,,,,E,,,,,,,E,,E,,E,,,,,,,,,,,,,,,,,,Approved in 12th senate
+59,ME 626,Acoustics,3-0-0-3,AG,,,,,,,,,E,,,,E,,,,,,,E,E,,,E,,,,,,,,,,,,,,,,,,Approved in 9th senate
+60,ME 633,Design of Energy Systems,3-0-0-3,RK,,,,,,,,,E,,,,E,,,,,,,C,C,,,,,,,,,,,,,,,,,,E,,,Approved in 10th senate
+61,ME 636,Combustion Technology,3-0-0-3,PAK,,,,,,,,,,,,,E,,,,,,,E,,,,,,,,,,,,,,,,,,,E,,,Approved in 10th senate
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,EE 309,Power Electronics,2.5-0.5-0-3,MD,,,,E,,,,E,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 5th senate
+63,EE 309P,Power Electronics Lab,0-0-2-1,MD,,,,E,,,,E,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 5th senate
+64,CS 403,Algorithm Design and Analysis,3-0-2-4,RP,,,,,,,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 6th senate
+65,CS 507,Computer Architecture,3-0-2-4,"AKS, Dileep",,,,,,,E,E,,,E,E,,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved  in 14th senate
+66,CS 508,Introduction to Heterogeneous Computing,2-0-0-2,Dileep,,,,,,E,E,E,E,,E,E,,E,E,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 10th senate
+67,CS 549,Computer Network Analysis,3-0-0-3,sree,,,,,,E,E,E,E,E,E,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 12th senate
+68,CS 660,Data Mining for Decision Making,3-0-1-4,VD,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 8th senate
+69,CS 671,Deep Learning and Applications,3-0-1-4,AN,,,,,,E,E,E,E,E,E,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 12th senate
+70,EE 511,Computer Vision,3-0-2-4,AB,,,E,E,,,E,E,,,E,E,,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 22nd senate
+71,EE 513,Special Electric Machines,3-0-0-3,BSR,,,,,,,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 8th senate
+72,EE 517,Wireless Communication and Networking,3-0-0-3,Samar,,,,,,,E,E,,,E,E,,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 9th senate
+73,EE 523,Digital VLSI Architecture Design,3-0-2-4,Rahul,,,,,,,,E,,,,E,,E,E,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 14th Senate Meeting
+74,EE 529,Embedded Systems,3-0-2-4,SRC,,,,,,E,E,E,E,E,E,E,E,C,C,E,E,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 14th senate Meeting
+75,EE 619,Mixed Signal VLSI Design,3-1-0-4,Srinivasu,,,,,,,,E,,,,E,,E,E,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 9th senate
+76,EE 621,Radiating Systems,3-1-0-4,GSR,,,,,,,,E,,,,E,,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 12th senate
+77,BY 514,Analytical Biotechniques,3-0-0-3,AJ,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,C,C,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 9th senate
+78,BY 515,Molecular Biotechnology,3-0-0-3,Rajanish,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,C,C,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 9th senate
+79,BY 504,Metabolic Systems Biology,3-0-0-3,SKM,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 8th senate
+80,BY 613,"Metagenomics, and Next Generation Sequencing Technologies",3-0-0-3,TPS,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 11th senate
+81,BY 503,Cellular Fuel and Cellular Communication,3-0-0-3,PM,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 8th senate
+82,BY 517,Proteomics,3-0-0-3,New Bio-faculties,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 10th senate
+83,BY 518,Disease Biology,3-0-0-3,AP,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 9th senate
+84,BY 519,Protein Science in therapeutics,3-0-0-3,Rajanish,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 9th senate
+85,BY 505,Nano-Biotechnology,3-0-0-3,AJ,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 8th senate
+86,BY 516,Introduction to “OMICS” and systems Analysis,3-0-0-3,TPS,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,E,E,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 9th senate
+87,BY 522P,Analytical and Molecular Biotechnology Lab,0-0-2-1,"AJ, Rajanish",,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,,,,,,Approved in 9th senate
+88,BY 523P,Systems Biology,0-0-2-1,"SKM, TPS, New Biofaculties",,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,,,,,Approved in 9th senate
+89,BY 524P,Medical and Nanobiotechnology Lab,0-0-2-1,AP/PM/Rajanish/AJ,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,,,,,Approved in 9th senate
+90,BY 526,IPR and Biosafety,0-0-0-0,PM,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,,,,,,Approved in 9th senate
+91,BY 599,Post Graduate Project II,0-0-34-17,SKM & PM Coordinators,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,,,,,,Approved in 9th senate
+92,RM 600,Research Methodology,1-0-0-1,RV/others,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,,,E,,,Approved in 5th senate
+93,CY 501P,Organic Chemistry Laboratory,4-0-0-4,SG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,Approved in 9th senate
+94,CY 502,Photochemistry & Pericyclic Reactions,3-1-0-4,Amit P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,Approved in 10th senate
+95,CY 504,Heterocyclic Chemistry ,2-0-0-2,SG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,Approved in 9th senate
+96,CY 507,Chemistry of Main Group Elements,3-1-0-4,VKN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,Approved in 8th senate
+97,CY 511,Group Theory & Spectroscopy,3-0-0-3,CKN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,Approved in 8th senate
+98,CY 513,"Reaction Dynamics, Kinetics & Catalysis ",3-0-0-3,AC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,Approved in 8th senate
+99,CY 552,Hydrogen Generation and Storage,3-0-0-3,AH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,Approved in 9th senate
+100,CY 554,Science and Technology of Nanomaterials,3-0-0-3,PFS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,Approved in 9th senate
+101,CY 644,Bioinorganic Chemistry,3-0-0-3,PCP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,Approved in 4th senate
+102,CY 704,Introduction to Theoretical Chemistry,3-0-0-3,AC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,Approved in 2nd senate
+103,DP 502P,Design Practicum  II,0-0-4-2,PCP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,Approved in 10th senate
+104,DP 505P,Main Project,0-0-18-9,PFS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,Approved in 10th senate
+105,MA 521,Functional Analysis,3-1-0-4,KH,,,,,,E,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,C,,,,,,,E,,,Approved in 10th senate
+106,MA 522,Partial Differential Equation,3-1-0-4,SA,,,,,,E,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,C,,,,,,,E,,,Approved in 10th senate
+107,MA 523,Numerical Analysis,3-1-0-4,MM,,,,,,E,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,C,,,,,,,E,,,Approved in 10th senate
+108,MA 524,Probability & Statistics,3-1-0-4,R Ray,,,,,,E,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,C,,,,,,,E,,,Approved in 10th senate
+109,MA 549,Abstract Algebra,3-0-0-3,Qaiser,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,Approved in 8th senate
+110,MA 582,Post Graduate Project II,0-0-28-14,NK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,Approved in 14th Senate Meeting
+111,MA 605,Statistical Data Analysis,2-1-0-3,Sarita,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,Approved in 10th senate
+112,PH 502,Photonics,3-0-0-3,PP,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,,E,,E,,,,,Approved in 2nd adhoc meeting
+113,PH 503,Laser and Applications,3-0-0-3,SKP,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,E,E,E,E,E,E,E,E,E,E,,,Approved in 2nd adhoc meeting
+114,PH 507,X-rays as a probe to study material properties,3-0-0-3,BR,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,,E,,E,,E,,,Approved in 8th senate
+115,PH 521,Electromagnetic Theory,4-0-0-4,PJ,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,Approved in 10th senate
+116,PH 522,Statistical Mechanics,4-0-0-4,SP,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,Approved in 9th senate
+117,PH 523,Condensed Matter Physics,3-0-0-3,CSY,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,Approved in 10th senate
+118,PH 524,Atomic and Molecular Physics,3-0-0-3,PK,,,,,,,E,E,E,,E,E,E,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,Approved in 10th senate
+119,PH 525P,Electronics Laboratory Practicum,0-0-5-3,New faculty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,Approved in 10th senate
+120,PH 526,Research Project III,0-0-6-3,Ajay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+121,PH 527,Research Project IV,0-0-6-3,Ajay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+122,PH 605,Superconductivity,3-0-0-3,Girish,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,E,E,,,,,,,E,E,E,E,E,,,,Approved in 19th senate
+123,PH 612,Nuclear and Particle Physics,3-0-0-3,KM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,E,E,,,,,Approved in 10th senate
+124,PH 621,Computational Methods for Physicists,2-0-4-4,HV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,Approved in 10th senate
+125,PH 519P,Post Graduate Project II,0-0-16-8,PK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,Approved in 19th senate
+126,HS 105_1,Basic Communication Skills,3-0-0-3,Devika,,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Communicative Comp.,,Approved in 2nd adhoc meeting
+127,HS 105_2,Basic Communication Skills,3-0-0-3,Aruna,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Communicative Comp.,,Approved in 2nd adhoc meeting
+128,HS 202,Principles of Economics,3-0-0-3,VR,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Managerial Comp.,,Approved in 2nd adhoc meeting
+129,HS 206,Public Speaking and Debating Skills,3-0-0-3,GS,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Communicative Comp.,,Approved in 2nd adhoc meeting
+130,HS 252,Introduction to Psychology,3-0-0-3,TBA,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Social Comp.,,Approved in 15th senate
+131,HS 344,Introduction to Sociology,3-0-0-3,NC,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Social Comp.,,Approved in 10th senate
+132,HS 304,Organizational Management,3-0-0-3,SD,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Managerial Comp.,,Approved in 2nd adhoc meeting
+133,HS 481,International Economics,3-0-0-3,Ramna,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Free Elective,,Approved in 5th senate
+134,HS 372,German IV,3-0-0-3,GS,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Language Comp.,,Approved in 3rd senate
+135,HS 393,Technology and World History:1400 to the present,3-0-0-3,RD,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Social Comp.,,Approved in 12th senate
+136,HS 510,Essentials of Entrepreneurship,3-0-0-3,Powar,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,Management Basket,,Approved in 17th senate
+137,HS 530,"Planning, Welfare and Development",3-0-0-3,surya/MVD,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,E,,Discipline Core,Approved in 16th senate
+138,HS 533,Urban Development,3-0-0-3,Surya,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Discipline Elective,Approved in 16th senate
+139,HS 536,Social Movements in India,3-0-0-3,NC,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Discipline Elective,Approved in 9th senate
+140,HS 539,"Post War Germany-Politics, Society and Culture",3-0-0-3,NK,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Outside Discipline Elective,Approved in 23rd senate
+141,HS 551,Financial Management,3-0-0-3,Puran,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,,,,,,,,,,,E,Managerial Comp.,Outside Discipline Elective,Approved in 9th senate
+142,HS 551P,Development Studies Practicum I,0-0-8-4,surya,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,,,Approved in 19th senate
+143,HS 541,Technical Communication,1-0-0-1,AB,,,,,,,,,,,,,,,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,Approved in 12th senate
+144,HS 554P,Dissertation,0-0-35-23,SDG,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,,,,Approved in 16th senate
+145,DP 402P,Major Technical Project,5-0-0-5,"powar, DPS,Ramna",,,,,,,,,,,E,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 6th senate
+146,EN 611,Durability Behaviour of Energy Materials,3-0-0-3,JKR,,,,,,,,,,,,,E,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+147,EN 612,Structure-Property Correlation in Materials for Energy Applications,2-0-2-3,Rik,,,,,,,,,,,,,E,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+148,EE 507,Transmission Lines and Basic Microwave Engineering,3-1-0-4,GSR,,,,,,,,E,,,,E,,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 12th senate
+149,EE 526,Power Semiconductor Devices,3-0-0-3,Ankush,,,,,,,,E,,,,E,,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 14th senate Meeting
+150,EE 530,Applied Optimization,2-0-2-3,RMR,,,,,,,E,E,,,E,E,,,,C,C,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 20th senate
+151,EE 531,Estimation and Detection theory,3-0-0-3,Samar,,,,,,,,,,,,E,,,,E,E,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 15th senate
+152,EE 593,Selected Topics in Low Power VLSI Design,3-0-0-3,S.Sen (LC:SRC),,,,,,,E,E,,,E,E,,E,E,,,,,,,,,,,,,,,,,,,,,,,,E,,,Not Approved
+153,EE 5XX,IoT Systems   ,2-0-2-3,Sharma  ,,,,,,,E,E,,,E,E,,,,C,C,,,,,,,,,,,,,,,,,,,,,,E,,,New course
+154,EE 604,Advanced Electrical Drives,2.5-0.5-03,HM,,,,,,,,,,,,E,,E,,,,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 2nd senate
+155,EE 604P,Practicum on  Advanced Electrical Drives,0-0-2-1,HM,,,,,,,,,,,,E,,,,,,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 13th senate
+156,EE 606,Introduction to High Voltage Engineering and Dielectric Breakdown,3-0-0-3,"Ravindra Arora, (LC:BSR)",,,,,,,,,,,,E,,,,,,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 5th senate
+157,EE 611,VLSI Technology,3-0-0-3,SKS,,,,,,,,E,,,,E,,C,C,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 5th senate
+158,EE 611P,VLSI Fabrication Practicum,0-0-3-2,SB,,,,,,,,E,,,,E,,C,C,,,,,,,,,,,,,,,,,,,,,,,,E,,,Approved in 11th senate
+159,EE 620,Advanced Digital Signal Processing,3-0-0-3,RMR,,,,,,,,,,,,E,,,,E,E,E,E,,,,,,,,,,,,,,,,,,,,E,,,Approved in 10th senate
+160,EE 623P,Practicum on Digital Control of Electric Drives,1-0-3-3,Singha,,,,,,,,,,,,E,,,,,,C,C,,,,,,,,,,,,,,,,,,,,E,,,Approved in 15th senate
+161,ME 451,Refrigeration and Air Conditioning,3-0-0-3,RV,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 3rd senate
+162,ME 452,Robotics and Control,2-1-0-3,Amit,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+163,ME 631,Heat Transfer and Fluid Flow in Energy Systems,3-0-0-3,SSR,,,,,,,,,,,,,E,,,,,,,C,,,,,,,,,,,,,,,,,,,E,,,Approved in 10th senate
+164,ME 635,Manufacturing for Energy Systems,3-0-0-3,swati,,,,,,,,,,,,,E,,,,,,,E,,E,,,,,,,,,,,,,,,,,,,,Approved in 10th senate
+165,HS 550,Statistical Methods,3-0-2-4,SDG,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,,,,,,,,,,,E,,Discipline Elective,Approved in 10th senate
+166,HS 523,Decision Making for Social Change,3-0-0-3,VD,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Discipline Elective,Approved in 19th senate
+167,HS 623,Advanced Social Psychology,4-0-0-4,SD,,,,,,E,E,E,E,E,E,E,E,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Discipline Elective,Approved in 9th senate
+168,HS 608,Modern Western Social Thought,3-0-0-3,MVD,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Outside Discipline Elective,Approved in 10th senate
+169,HS 611,Research Writing,3-0-0-3,Devika/RD,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,E,,,,,,,,,,E,,Outside Discipline Elective,Approved in 10th senate
+170,CS 591,Selected Topics on Constraint Satisfaction Problems,1-0-0-1,DK,,,,,,,E,E,,,E,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+171,XX 599,Independent Study,0-0-4-2,SCEE Faculty,,,,,,E,E,E,E,E,E,E,E,C,,,,,,,,,,,,,,,,,,,,,,,,,E,,,New course

@@ -1,0 +1,1 @@
+NDSummary.OnToolTipsLoaded("File:test.py",{10:"<div class=\"NDToolTip TFunction LPython\"><div class=\"TTSummary\">Creates database and tables and reads the csv files basket.csv, teachers.csv, class.csv and courses.csv and imports data in the form of tables to the database test.db.</div></div>"});

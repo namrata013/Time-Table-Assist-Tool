@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("del",["Function"],[["deleteIt",,[[,,,,0,"File:db_modify.py:deleteIt"]]],["deletion",,[[,,,,0,"File:gui.py:deletion"]]]]);
